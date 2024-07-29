@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Java Developer</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between">
+      <div class="text-lg font-bold">My Portfolio</div>
+      <div>
+        <a href="#about" class="mr-4">About</a>
+        <a href="#projects" class="mr-4">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume" calss="mr-4">resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="bg-white py-20">
+    <div class="container mx-auto text-center">
+      <h1 class="text-5xl font-bold mb-4">Hello, I'm a Java Developer</h1>
+      <p class="text-xl">with 1 year of experience</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-200">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-lg">I'm a passionate Java developer with experience in building scalable applications. I love coding and learning new technologies.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Project 1</h3>
+          <p>A brief description of project 1.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Project 2</h3>
+          <p>A brief description of project 2.</p>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Project 3</h3>
+          <p>A brief description of project 3.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="py-20 bg-gray-200">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Resume</h2>
+      <p class="text-lg mb-4">Click the button below to download my resume.</p>
+      <a href="resume.pdf" download="resume.pdf" class="bg-gray-800 text-white py-2 px-4 rounded">Download Resume</a>
+      <div class="mt-8">
+        <h3 class="text-2xl font-bold mb-2">Summary</h3>
+        <p class="text-lg mb-4">Java developer with 1 year of experience in building and maintaining scalable applications.</p>
+        <h3 class="text-2xl font-bold mb-2">Skills</h3>
+        <ul class="list-disc list-inside text-lg mb-4">
+          <li>Java</li>
+          <li>SQL</li>
+          <li>Git</li>
+        </ul>
+        <h3 class="text-2xl font-bold mb-2">Education</h3>
+        <p class="text-lg mb-4">Bachelor's in Computer Science, nbnscoe University (2019 - 2023)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-200">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <form class="max-w-md mx-auto">
+        <div class="mb-4">
+          <input type="text" placeholder="Your Name" class="w-full p-2 border rounded">
+        </div>
+        <div class="mb-4">
+          <input type="email" placeholder="Your Email" class="w-full p-2 border rounded">
+        </div>
+        <div class="mb-4">
+          <textarea placeholder="Your Message" class="w-full p-2 border rounded"></textarea>
+        </div>
+        <button type="submit" class="bg-gray-800 text-white py-2 px-4 rounded">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
